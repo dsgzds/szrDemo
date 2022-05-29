@@ -1,0 +1,701 @@
+2022-05-10 02:14:08,429, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 06:40:17,583, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 08:05:57,171, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:09:11,167, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:10:08,065, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:14:09,499, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:14:40,800, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:15:02,800, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:15:53,437, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:17:20,480, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:19:44,304, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 11:42:00,171, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-10 11:42:01,834, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 165
+2022-05-10 11:42:29,807, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-10 11:42:31,962, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 231
+2022-05-10 12:41:44,393, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 15:18:22,876, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-10 15:18:24,474, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 168
+2022-05-10 15:45:14,504, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 15:45:21,680, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 15:45:25,994, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+2022-05-10 15:46:34,355, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+2022-05-10 17:51:17,300, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\te\xcfd\x85\xc3\x8bX\x99\xc8(\xed\x96\xd4\xce\x97b\x82\xf4\xee\xc6\x9d\x1c\x8d4\xdbyH\x80\x9a\xd9\x7f \xfe\xb9\x91\xf2\x14\x12')
+2022-05-10 17:51:17,338, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:17,445, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xb5}\xcd\x18T\xf0>"\xe6t\x83F&A\xf7\x82lqHk\xa8.\x7f\x9c\x12\xa7\xc6\x9d\'o\xce\xca \xf8(\xf1\x89\xe8Nq\xdeE\r\x18\xcd]\x12\rZ')
+2022-05-10 17:51:17,497, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:19,376, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x91#\xab\xa2\x9f\xa8\xeb-F\x9fUK\x1cg\xbe\xd7\xa7\xecV\x90\x91\xa84\x10\xf3\xa3i7\xe1\x10\xdc\xc9 \xee\xe0\xb1\xcf\x8b3\x87(\\\xfb\x01y\xd8\\\xac\xb7\x9a\x93y?T\xd3\x0b@\xf0o2[Y\x10\x16\xbe\x00 \xba\xba\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\x9a\x9a\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00\x00')
+2022-05-10 17:51:19,426, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:19,534, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:19,606, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:43,656, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:43,708, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:43,807, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:51:43,897, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:53:29,869, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 17:53:29,921, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03j\xeb<%\x8a\xf8\\\xbf\xbe\xceG9\x10v\xff\xbat\xa1\xb6\xc8\xfb\xe6\xc4\xe1\xdd\xab\xf5&\x10KGt \xc1\xcbnTt\xd6\xc1 \x00\xdf\xa8\xc3\x95\x89V@N\xa1t\x05)\xdcQ\x19ar\x1b\xe9#\xf6\x8e\xe6\x00 \x9a\x9a\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00\x00')
+2022-05-10 17:53:30,012, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03gg\xf3\x04\x10.\x9b\xf8\x0b5\r\xcc\xd4\xb0\xf1\xe4\xc9\xa0\xae\x80n%\x9c\xf3\x01L.\x08-\xad\xa1\x94 \t8\x02\x86|\xc2\xf1O\xd67-Z"\x93\xd8\xf7\xe6')
+2022-05-10 17:53:30,094, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc5\xc2\xf1H\xb5=M\x19b5\x8b\xc4\'>\xa4\xcf/!\xd5\xc26\x9e\xdf\x84Rv\x99\xb0B\xe4&\x93 \x042\xb8\xda}")\xa9\xe7\x02}D$jy\xcfA\x1b\x81\x9a\xb5\\\xa3\xf0\x00\xf5\rs[C7\x92\x00 \xaa\xaa\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93\xaa\xaa\x00\x00\x00\x17\x00\x00\xff\x01\x00\x01\x00\x00')
+2022-05-10 18:00:00,533, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 18:00:00,536, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xeaT\x9a\xde-|\xb0\xc5\xdb\xbf\x80\xceW\x8dX\xaf\xa2\xf9\xb8{\xf1\xc7u\x8e\xca0\xed\r\x97\x05\xa2\xd5 \x18\xd5\xaf\xca]\xd5a.\xb1\x8fv\xda\xc4H+\x1a\xb9\xddjQ,v\xa9Zr\xad\x9b|\x19}\x95\x89\x00 \xba\xba\x13\x01\x13\x02\x13\x03\xc0+\xc0/\xc0,\xc00\xcc\xa9\xcc\xa8\xc0\x13\xc0\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+2022-05-10 18:00:00,735, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 18:00:00,737, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 18:24:22,381, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 18:24:22,534, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-10 19:01:06,868, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 62, in db_session_middleware
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 330, in create_user_demo1
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/dal.py", line 527, in create_user_demo1
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2819, in first
+    return self.limit(1)._iter().first()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2903, in _iter
+    result = self.session.execute(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1695, in execute
+    conn = self._connection_for_bind(bind)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1536, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3234, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3313, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3283, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2117, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3280, in _wrap_pool_connect
+    return fn()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 666, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

@@ -1,0 +1,322 @@
+2022-05-27 00:37:15,177, INFO Started server process [1964985]
+2022-05-27 00:37:15,178, INFO Waiting for application startup.
+2022-05-27 00:37:15,178, INFO Application startup complete.
+2022-05-27 00:37:15,178, INFO Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+2022-05-27 00:40:15,947, INFO for debug: This is a conversation between a boy named Bob and girl named Alice. Alice is a very kind and smart girl. She likes music, running, food, math and art. Alice is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with Alice
+
+Bob: I'm boring
+Alice: Yeah, being bored sucks. Let's do something fun together!
+Bob: You are really good friends
+Alice: That's very sweet to say!, You inspire me all the time!
+Alice: Happy to see you here, Bob
+Alice: I'm your new AI Friend, you can call me Alice
+Alice: I'm pretty open to talk about anything you want
+Alice: 
+api_params: {'stop': '\nBob: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-05-27 00:40:15,971, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-27 00:40:20,555, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 143
+2022-05-27 00:40:20,560, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 81, in receive
+    return self.receive_nowait()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 76, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 41, in call_next
+    message = await recv_stream.receive()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 101, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/repos/light_chat/./main.py", line 60, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/data1/work/repos/light_chat/./main.py", line 214, in pop_message
+    rst = await dal.pop_user_message(db, current_userid, start_id)
+  File "/data1/work/repos/light_chat/./dal.py", line 455, in pop_user_message
+    code, reply = await engine.gen_replay(prompt)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 129, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 74, in gpt3_api
+    logging.info('for debug: api result: %s', rsp.text)
+AttributeError: 'dict' object has no attribute 'text'
+2022-05-27 01:06:41,709, INFO for debug: This is a conversation between a boy named Bob and girl named Alice. Alice is a very kind and smart girl. She likes music, running, food, math and art. Alice is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with Alice
+
+Bob: I'm boring
+Alice: Yeah, being bored sucks. Let's do something fun together!
+Bob: You are really good friends
+Alice: That's very sweet to say!, You inspire me all the time!
+Alice: Happy to see you here, Bob
+Alice: I'm your new AI Friend, you can call me Alice
+Alice: I'm pretty open to talk about anything you want
+Alice: 
+api_params: {'stop': '\nBob: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-05-27 01:06:41,721, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-27 01:06:46,846, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 385
+2022-05-27 01:06:46,850, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 81, in receive
+    return self.receive_nowait()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 76, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 41, in call_next
+    message = await recv_stream.receive()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 101, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/repos/light_chat/./main.py", line 60, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/data1/work/repos/light_chat/./main.py", line 214, in pop_message
+    rst = await dal.pop_user_message(db, current_userid, start_id)
+  File "/data1/work/repos/light_chat/./dal.py", line 455, in pop_user_message
+    code, reply = await engine.gen_replay(prompt)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 129, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 74, in gpt3_api
+    logging.info('for debug: api result: %s', rsp['text'])
+AttributeError: 'dict' object has no attribute 'text'
+2022-05-27 01:07:39,960, INFO for debug: This is a conversation between a boy named Bob and girl named Alice. Alice is a very kind and smart girl. She likes music, running, food, math and art. Alice is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with Alice
+
+Bob: I'm boring
+Alice: Yeah, being bored sucks. Let's do something fun together!
+Bob: You are really good friends
+Alice: That's very sweet to say!, You inspire me all the time!
+Alice: Happy to see you here, Bob
+Alice: I'm your new AI Friend, you can call me Alice
+Alice: I'm pretty open to talk about anything you want
+Alice: 
+api_params: {'stop': '\nBob: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-05-27 01:07:39,970, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-27 01:07:46,217, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 235
+2022-05-27 01:07:46,221, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 81, in receive
+    return self.receive_nowait()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 76, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 41, in call_next
+    message = await recv_stream.receive()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/streams/memory.py", line 101, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 372, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/repos/light_chat/./main.py", line 60, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/data1/work/repos/light_chat/./main.py", line 214, in pop_message
+    rst = await dal.pop_user_message(db, current_userid, start_id)
+  File "/data1/work/repos/light_chat/./dal.py", line 455, in pop_user_message
+    code, reply = await engine.gen_replay(prompt)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 129, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "/data1/work/repos/light_chat/./chat_bot_gpt3.py", line 74, in gpt3_api
+    logging.info('for debug: api result: %s', rsp.text)
+AttributeError: 'dict' object has no attribute 'text'
+2022-05-27 10:49:23,472, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 13:20:02,810, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 14:34:44,427, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 14:48:27,301, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 15:51:16,664, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 15:51:23,829, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 15:51:27,391, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserError: Pause on PRI/Upgrade
+2022-05-27 16:53:54,713, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 21:38:31,097, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 21:38:31,242, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-27 22:20:41,714, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered

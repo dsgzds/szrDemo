@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style type="text/css">
+        span.bot{color: #b7b7b7}
+        span.human{font-style: italic}
+    </style>
+    <body>
+
+        <h1>http/WebSocket Chat</h1>
+        <form name="login-info" id="login-info" action="#">
+            login_type: <input type="text" name="login_type" value="login_type_01" autocomplete="off"/>
+            login_id: <input type="text" name="login_id" value="login_id_01" autocomplete="off"/>
+            device_id: <input type="text" name="device_id" value="login_device_id01" autocomplete="off"/>
+            <button>Login</button>
+        </form>
+        <div id="Login-user-info">Logined user: <span id="user-list"></span></div>
+        <div id="log-output"></div>
+        <ul id='messages' style="height: 60vh; overflow: scroll">
+        </ul>
+        <form id="comment" action="#"  style="height: 20vh">
+            <input type="text" id="messageText" autocomplete="off"/>
+            <button>Send</button>
+        </form>
+        <script>
+            let ws = null;
+            // Display logging information in the document.
+            function log(s) {
+                let output = document.getElementById('log-output');
+                output.innerHTML = s;
+
+                // Also log information on the javascript console
+                console.log(s);
+            }
+
+            function user_login(e) {
+                e.preventDefault();
+                let login_form = new FormData(document.getElementById('login-info'));
+                let login_param = {};
+                login_form.forEach((v, k) => {
+                    login_param[k] = v;
+                })
+                var xhr = new XMLHttpRequest();
+                url = "/api/v0/auth/login"
+                // url = window.location.protocol + "//" + window.location.host + url
+                xhr.open("POST", url);
+                xhr.setRequestHeader("Content-Type","application/json");
+                xhr.send(JSON.stringify(login_param))
+                xhr.onreadystatechange = function() {
+                    if (this.readyState != 4) {
+                        return
+                    }
+                    if(this.status==200){
+                        rsp_text = this.responseText
+                        console.log("responseText",this.responseText)
+                        if (rsp_text == null || rsp_text == "" || rsp_text == "null") {
+                            log("login failed, invalid auth info")
+                        } else {
+                            rsp_token = JSON.parse(rsp_text)
+                            // to set 
+                            setToken(rsp_token)
+                            log("login success")
+                            tryGetUserInfo()
+                        }
+                    }
+                };
+            }
+
+            function setToken(tokens) {
+                if (window.localStorage) {
+                    storage = window.localStorage;
+                    storage.setItem("at", tokens["access_token"]);
+                    storage.setItem("ft", tokens["refresh_token"]);
+                }
+            }
+
+            function addMessage(msg, is_from) {
+                let messages = document.getElementById('messages');
+                let message = document.createElement('li');
+                let message_content = null;
+
+                if (is_from) {
+                    message_content = document.createElement('span');
+                    message_content.appendChild(
+                        document.createTextNode("bot   :" + msg)
+                    );
+                    message_content.setAttribute('class', 'bot')
+                } else {
+                    message_content = document.createElement('span');
+                    message_content.appendChild(
+                        document.createTextNode("me    :" + msg)
+                    );
+                    message_content.setAttribute('class', 'human');
+                }
+                message.appendChild(message_content);
+                messages.appendChild(message);
+                messages.scrollTop = messages.scrollHeight;
+            }
+
+            function getHttpRequestWithToken(url, method) {
+                if (!window.localStorage) {
+                    return null
+                }
+                storage = window.localStorage;
+                access_token = storage.getItem("at")
+                if (!access_token) {
+                    return null
+                }
+                var xhr = new XMLHttpRequest();
+                xhr.open(method, url);
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.setRequestHeader("Authorization", "Bearer " + access_token);
+                return xhr
+            }
+
+            function getHistMsgs() {
+                url = "/api/v0/msgs/hist"
+                xhr = getHttpRequestWithToken(url, 'GET')
+                if (!xhr) {
+                    log("invalid access token, please login")
+                    disable_login_form(false)
+                    return
+                }
+                xhr.send()
+                xhr.onreadystatechange = function() {
+                    if (this.readyState != 4) {
+                        return
+                    }
+                    if(this.status==200){
+                        rsp_text = this.responseText
+                        console.log("responseText", rsp_text)
+                        if (rsp_text == null || rsp_text == "" || rsp_text == "null") {
+                            return
+                        } else {
+                            msgs = JSON.parse(rsp_text)
+                            for (var i = 0; i < msgs.length; i++) {
+                                var msg = msgs[i];
+                                if (msg["srcid"] == self_user_info['id']) {
+                                    addMessage(msg["msg"], false)
+                                } else {
+                                    addMessage(msg["msg"], true)
+                                }
+                            }
+                        }
+                    }
+                };
+            }
+
+            function tryGetUserInfo() {
+                url = "/api/v0/users/info"
+                xhr = getHttpRequestWithToken(url, 'GET')
+                if (!xhr) {
+                    log("invalid access token")
+                    disable_login_form(false)
+                    return
+                }
+                xhr.send()
+                xhr.onreadystatechange = function() {
+                    if (this.readyState != 4) {
+                        return
+                    }
+                    if(this.status==200){
+                        rsp_text = this.responseText
+                        console.log("responseText", rsp_text)
+                        if (rsp_text == null || rsp_text == "" || rsp_text == "null") {
+                            log("invalid access token")
+                            disable_login_form(false)
+                        } else {
+                            self_user_info = JSON.parse(rsp_text)
+                            // to set 
+                            let user_list = document.getElementById('user-list');
+                            user_list.innerHTML = self_user_info['name']
+                            disable_login_form(true)
+                            log("access token check ok")
+                            getHistMsgs()
+                        }
+                    } else {
+                            disable_login_form(false)
+                    }
+                };
+
+            }
+
+            function disable_login_form(disable_or_not) {
+                var elements = login_info;
+                for (var i = 0; i < elements.length; i++) {
+                    elements[i].disabled = disable_or_not;
+                }
+            }
+
+            function sendMessage(e) {
+                e.preventDefault()
+                let input = document.getElementById("messageText");
+                let msg = input.value.trim();
+                addMessage(msg, false)
+                url = "/api/v0/send_msg_demo1"
+                xhr = getHttpRequestWithToken(url, "POST")
+                if (!xhr) {
+                    log("valid access token is required, please login")
+                    disable_login_form(false)
+                    return
+                }
+                xhr.send(JSON.stringify({"msg": msg}))
+                xhr.onreadystatechange = function() {
+                    if (this.readyState != 4) {
+                        return
+                    }
+                    if(this.status==200){
+                        rsp_text = this.responseText
+                        console.log("responseText",this.responseText)
+                        conv_data = JSON.parse(rsp_text)
+                        // to set 
+                        addMessage(conv_data["reply"][0]['msg'], true)
+                    } else {
+                        addMessage("FAILED", true)
+                    }
+                };
+                document.getElementById('messageText').text = '';
+            }
+            const login_info = document.getElementById('login-info');
+            const commet = document.getElementById('comment');
+            login_info.addEventListener('submit', user_login);
+            commet.addEventListener('submit', sendMessage);
+            let self_user_info = null;
+            tryGetUserInfo();
+        </script>
+    </body>
+</html>

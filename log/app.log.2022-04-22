@@ -1,0 +1,1028 @@
+2022-04-22 18:54:33,191, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-22 18:54:33,221, INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-04-22 18:54:33,221, INFO Started reloader process [8832] using statreload
+2022-04-22 18:54:34,771, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 18:54:34,771, DEBUG Using selector: SelectSelector
+2022-04-22 18:54:35,052, INFO Started server process [2408]
+2022-04-22 18:54:35,052, INFO Started server process [2408]
+2022-04-22 18:54:35,052, INFO Waiting for application startup.
+2022-04-22 18:54:35,052, INFO Waiting for application startup.
+2022-04-22 18:54:35,052, INFO Application startup complete.
+2022-04-22 18:54:35,052, INFO Application startup complete.
+2022-04-22 20:08:34,261, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 178, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 116, in chat_api
+    engine = PromptEngine(msg, userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 64, in __init__
+    self.persona = json.loads(dal.get_bot_persona(db, user.default_botid))
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 195, in get_bot_persona
+    return get_persona_settings(db).persona
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 529, in get_persona_settings
+    return schemas.PersonaSettings(persona='', born_msg='')
+  File "pydantic\main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for PersonaSettings
+create_time
+  field required (type=value_error.missing)
+2022-04-22 20:08:34,261, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 178, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 116, in chat_api
+    engine = PromptEngine(msg, userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 64, in __init__
+    self.persona = json.loads(dal.get_bot_persona(db, user.default_botid))
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 195, in get_bot_persona
+    return get_persona_settings(db).persona
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 529, in get_persona_settings
+    return schemas.PersonaSettings(persona='', born_msg='')
+  File "pydantic\main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for PersonaSettings
+create_time
+  field required (type=value_error.missing)
+2022-04-22 20:08:37,726, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 178, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 116, in chat_api
+    engine = PromptEngine(msg, userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 64, in __init__
+    self.persona = json.loads(dal.get_bot_persona(db, user.default_botid))
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 195, in get_bot_persona
+    return get_persona_settings(db).persona
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 529, in get_persona_settings
+    return schemas.PersonaSettings(persona='', born_msg='')
+  File "pydantic\main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for PersonaSettings
+create_time
+  field required (type=value_error.missing)
+2022-04-22 20:08:37,726, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 178, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 116, in chat_api
+    engine = PromptEngine(msg, userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 64, in __init__
+    self.persona = json.loads(dal.get_bot_persona(db, user.default_botid))
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 195, in get_bot_persona
+    return get_persona_settings(db).persona
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\dal.py", line 529, in get_persona_settings
+    return schemas.PersonaSettings(persona='', born_msg='')
+  File "pydantic\main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for PersonaSettings
+create_time
+  field required (type=value_error.missing)
+2022-04-22 20:11:15,780, WARNING StatReload detected file change in 'main.py'. Reloading...
+2022-04-22 20:11:17,913, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 20:11:17,913, DEBUG Using selector: SelectSelector
+2022-04-22 20:11:18,136, INFO Started server process [592]
+2022-04-22 20:11:18,136, INFO Started server process [592]
+2022-04-22 20:11:18,137, INFO Waiting for application startup.
+2022-04-22 20:11:18,137, INFO Waiting for application startup.
+2022-04-22 20:11:18,137, INFO Application startup complete.
+2022-04-22 20:11:18,137, INFO Application startup complete.
+2022-04-22 20:18:17,146, WARNING StatReload detected file change in 'main.py'. Reloading...
+2022-04-22 20:18:19,385, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 20:18:19,386, DEBUG Using selector: SelectSelector
+2022-04-22 20:18:19,560, INFO Started server process [2148]
+2022-04-22 20:18:19,560, INFO Started server process [2148]
+2022-04-22 20:18:19,564, INFO Waiting for application startup.
+2022-04-22 20:18:19,564, INFO Waiting for application startup.
+2022-04-22 20:18:19,564, INFO Application startup complete.
+2022-04-22 20:18:19,564, INFO Application startup complete.
+2022-04-22 20:32:17,302, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:17,302, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:18,283, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:18,283, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:18,491, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:18,491, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:19,571, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,571, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,574, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:19,574, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:19,657, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,657, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,660, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:19,660, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:19,676, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,676, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:19,680, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:19,680, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:22,741, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:22,741, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:23,666, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:23,666, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:23,668, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:23,668, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:29,994, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:29,994, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:30,926, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:30,926, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:30,926, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:30,926, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:39,694, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:39,694, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:32:40,646, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:40,646, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:32:40,646, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:32:40,646, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:36:16,595, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:36:16,595, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:36:18,010, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:36:18,010, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:36:18,010, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:36:18,010, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:36:27,173, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:36:27,173, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:36:28,042, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:36:28,042, DEBUG HTTP Request: POST https://api.openai.com/v1/engines/davinci/completions "HTTP/1.1 401 Unauthorized"
+2022-04-22 20:36:28,042, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:36:28,042, INFO for debug: api result: {
+    "error": {
+        "message": "Incorrect API key provided: sjgsibgu****gdfg. You can find your API key at https://beta.openai.com.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+2022-04-22 20:40:25,469, WARNING StatReload detected file change in 'chat_bot_gpt3.py'. Reloading...
+2022-04-22 20:41:21,619, WARNING StatReload detected file change in 'chat_bot_gpt3.py'. Reloading...
+2022-04-22 20:41:23,947, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 20:41:23,947, DEBUG Using selector: SelectSelector
+2022-04-22 20:41:24,151, INFO Started server process [16120]
+2022-04-22 20:41:24,151, INFO Started server process [16120]
+2022-04-22 20:41:24,152, INFO Waiting for application startup.
+2022-04-22 20:41:24,152, INFO Waiting for application startup.
+2022-04-22 20:41:24,153, INFO Application startup complete.
+2022-04-22 20:41:24,153, INFO Application startup complete.
+2022-04-22 20:45:52,366, WARNING StatReload detected file change in 'chat_bot_gpt3.py'. Reloading...
+2022-04-22 20:45:54,469, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 20:45:54,469, DEBUG Using selector: SelectSelector
+2022-04-22 20:45:54,630, INFO Started server process [14896]
+2022-04-22 20:45:54,630, INFO Started server process [14896]
+2022-04-22 20:45:54,630, INFO Waiting for application startup.
+2022-04-22 20:45:54,630, INFO Waiting for application startup.
+2022-04-22 20:45:54,634, INFO Application startup complete.
+2022-04-22 20:45:54,634, INFO Application startup complete.
+2022-04-22 20:45:54,862, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:45:54,862, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:45:54,893, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 137, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 127, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 66, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 40, in rsp_test
+    rsp = requests.post(url, json=req_data)
+NameError: name 'requests' is not defined
+2022-04-22 20:45:54,893, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 137, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 127, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 66, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 40, in rsp_test
+    rsp = requests.post(url, json=req_data)
+NameError: name 'requests' is not defined
+2022-04-22 20:45:56,244, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:45:56,244, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: I'm boring
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-22 20:45:56,266, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 137, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 127, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 66, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 40, in rsp_test
+    rsp = requests.post(url, json=req_data)
+NameError: name 'requests' is not defined
+2022-04-22 20:45:56,266, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 137, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 127, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 66, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 40, in rsp_test
+    rsp = requests.post(url, json=req_data)
+NameError: name 'requests' is not defined
+2022-04-22 20:47:43,984, INFO Shutting down
+2022-04-22 20:47:43,984, INFO Shutting down
+2022-04-22 20:47:44,094, INFO Waiting for application shutdown.
+2022-04-22 20:47:44,094, INFO Waiting for application shutdown.
+2022-04-22 20:47:44,094, INFO Application shutdown complete.
+2022-04-22 20:47:44,094, INFO Application shutdown complete.
+2022-04-22 20:47:44,095, INFO Finished server process [14896]
+2022-04-22 20:47:44,095, INFO Finished server process [14896]
+2022-04-22 20:47:44,121, INFO Stopping reloader process [8832]
+2022-04-22 21:10:37,229, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-22 21:10:37,230, INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-04-22 21:10:37,230, INFO Started reloader process [9896] using statreload
+2022-04-22 21:10:38,693, WARNING The --reload flag should not be used in production on Windows.
+2022-04-22 21:10:38,697, DEBUG Using selector: SelectSelector
+2022-04-22 21:10:38,926, INFO Started server process [324]
+2022-04-22 21:10:38,926, INFO Started server process [324]
+2022-04-22 21:10:38,926, INFO Waiting for application startup.
+2022-04-22 21:10:38,926, INFO Waiting for application startup.
+2022-04-22 21:10:38,926, INFO Application startup complete.
+2022-04-22 21:10:38,926, INFO Application startup complete.
+2022-04-23 09:54:20,749, INFO Shutting down
+2022-04-23 09:54:20,749, INFO Shutting down
+2022-04-23 09:54:20,872, INFO Waiting for application shutdown.
+2022-04-23 09:54:20,872, INFO Waiting for application shutdown.
+2022-04-23 09:54:20,874, INFO Application shutdown complete.
+2022-04-23 09:54:20,874, INFO Application shutdown complete.
+2022-04-23 09:54:20,875, INFO Finished server process [324]
+2022-04-23 09:54:20,875, INFO Finished server process [324]

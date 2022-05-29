@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+fastapi_jwt_auth
+sqlalchemy
+httpx

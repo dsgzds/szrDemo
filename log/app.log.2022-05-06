@@ -1,0 +1,865 @@
+2022-05-07 04:33:32,774, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 04:33:32,979, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 06:01:25,228, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 07:07:56,030, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 07:08:00,351, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 07:08:02,773, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 72, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 88, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+2022-05-07 08:04:20,945, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:06:31,142, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:07:36,198, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:07:46,316, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:09:41,489, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:09:59,586, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 08:10:47,174, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 09:46:31,443, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 09:46:33,465, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 363
+2022-05-07 13:20:07,879, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:20:09,133, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 179
+2022-05-07 13:20:14,304, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:20:19,730, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:20:21,844, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 361
+2022-05-07 13:20:36,932, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:20:55,062, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:20:57,184, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 338
+2022-05-07 13:21:08,963, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:21:11,111, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 252
+2022-05-07 13:21:28,652, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:21:30,763, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 303
+2022-05-07 13:21:48,935, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:21:51,098, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 228
+2022-05-07 13:22:19,341, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:22:21,438, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 335
+2022-05-07 13:22:53,743, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:24:41,265, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:24:43,417, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 333
+2022-05-07 13:24:45,572, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:24:50,487, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:26:17,828, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:26:19,951, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 134
+2022-05-07 13:41:04,809, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:41:06,904, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 225
+2022-05-07 13:41:09,742, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:41:11,356, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:41:41,077, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:41:43,227, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 335
+2022-05-07 13:41:54,873, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:41:56,978, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 335
+2022-05-07 13:42:06,561, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:42:08,669, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 261
+2022-05-07 13:42:19,638, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:42:21,737, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 206
+2022-05-07 13:42:52,899, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-07 13:42:55,009, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 363
+2022-05-07 13:43:04,528, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 13:43:06,683, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 14:22:40,213, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 14:22:40,357, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-07 14:30:51,538, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 96, in __call__
+    raise exc from None
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/middleware/debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 181, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 58, in db_session_middleware
+    response = await call_next(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 44, in call_next
+    raise app_exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/middleware/cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    raise exc
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/routing.py", line 61, in app
+    response = await func(request)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/fastapi/routing.py", line 162, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/starlette/concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/anyio/_backends/_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "/data1/work/light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a/main.py", line 324, in evalutate_massage
+    return schemas.MessageEvaluation(id=message.id, msgid=message.msgid, content=message.content, evaluate=message.evaluate)
+  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
+pydantic.error_wrappers.ValidationError: 1 validation error for MessageEvaluation
+msg_time
+  field required (type=value_error.missing)
+2022-05-07 14:36:48,737, INFO Shutting down
+2022-05-07 14:36:48,838, INFO Waiting for application shutdown.
+2022-05-07 14:36:48,839, INFO Application shutdown complete.
+2022-05-07 14:36:48,839, INFO Finished server process [3614086]

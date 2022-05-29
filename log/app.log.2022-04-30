@@ -1,0 +1,12 @@
+2022-04-30 22:06:30,066, INFO Started server process [1526794]
+2022-04-30 22:06:30,066, INFO Waiting for application startup.
+2022-04-30 22:06:30,066, INFO Application startup complete.
+2022-04-30 22:06:30,067, INFO Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+2022-04-30 22:09:47,454, INFO Shutting down
+2022-04-30 22:09:47,555, INFO Waiting for application shutdown.
+2022-04-30 22:09:47,556, INFO Application shutdown complete.
+2022-04-30 22:09:47,556, INFO Finished server process [1526794]
+2022-04-30 22:28:15,809, INFO Started server process [1543447]
+2022-04-30 22:28:15,809, INFO Waiting for application startup.
+2022-04-30 22:28:15,809, INFO Application startup complete.
+2022-04-30 22:28:15,810, INFO Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)

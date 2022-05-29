@@ -1,0 +1,268 @@
+2022-05-29 05:14:33,357, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 05:18:44,799, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 05:19:59,886, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 05:20:53,294, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 05:21:00,274, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 05:21:14,782, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 06:18:24,318, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 07:08:56,806, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 07:09:00,169, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 07:09:12,052, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 09:10:51,431, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/httptools_impl.py", line 124, in data_received
+    self.parser.feed_data(data)
+  File "httptools/parser/parser.pyx", line 212, in httptools.parser.parser.HttpParser.feed_data
+httptools.parser.errors.HttpParserInvalidMethodError: Invalid method encountered
+2022-05-29 14:30:32,397, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:30:35,009, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 222
+2022-05-29 14:30:35,018, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:30:36,754, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 168
+2022-05-29 14:31:30,153, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:31:32,736, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 247
+2022-05-29 14:31:32,747, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:31:33,913, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 146
+2022-05-29 14:32:14,395, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:32:16,374, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 180
+2022-05-29 14:33:55,763, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:33:58,352, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 250
+2022-05-29 14:33:58,358, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:33:59,903, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 159
+2022-05-29 14:34:21,205, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:34:23,783, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 260
+2022-05-29 14:34:23,789, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:34:26,319, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 162
+2022-05-29 14:35:11,751, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:35:12,930, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 129
+2022-05-29 14:36:15,845, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:36:16,653, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 98
+2022-05-29 14:36:38,954, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:36:41,548, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 253
+2022-05-29 14:36:41,555, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:36:43,348, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 178
+2022-05-29 14:37:16,873, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:19,465, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 256
+2022-05-29 14:37:19,471, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:21,565, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 190
+2022-05-29 14:37:50,062, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:52,650, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 267
+2022-05-29 14:37:52,656, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:55,188, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 248
+2022-05-29 14:37:55,193, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:57,718, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 236
+2022-05-29 14:37:57,724, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:37:58,590, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 116
+2022-05-29 14:38:39,115, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:38:42,133, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 130
+2022-05-29 14:39:19,104, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:39:20,529, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 146
+2022-05-29 14:39:54,571, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:39:57,272, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 261
+2022-05-29 14:39:57,278, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:39:59,912, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 176
+2022-05-29 14:40:46,486, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:40:49,240, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 274
+2022-05-29 14:40:49,246, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:40:51,946, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 267
+2022-05-29 14:40:51,951, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:40:52,886, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 117
+2022-05-29 14:46:36,512, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:46:37,268, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 95
+2022-05-29 14:47:50,327, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:47:52,943, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 224
+2022-05-29 14:47:52,949, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:47:55,504, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 257
+2022-05-29 14:47:55,514, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:47:58,072, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 231
+2022-05-29 14:47:58,078, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:48:00,633, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 262
+2022-05-29 14:48:00,639, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:48:02,757, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 201
+2022-05-29 14:50:15,905, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:50:18,514, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 230
+2022-05-29 14:50:18,520, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:50:21,073, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 242
+2022-05-29 14:50:21,079, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:50:23,628, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 238
+2022-05-29 14:50:23,632, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:50:26,159, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 131
+2022-05-29 14:51:37,455, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:51:38,264, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 92
+2022-05-29 14:51:45,961, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:51:48,557, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 243
+2022-05-29 14:51:48,562, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:51:51,128, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 230
+2022-05-29 14:51:51,133, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:51:53,691, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 102
+2022-05-29 14:52:32,027, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:52:34,653, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 196
+2022-05-29 14:53:21,177, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:53:22,365, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 111
+2022-05-29 14:54:16,587, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:54:19,211, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 247
+2022-05-29 14:54:19,218, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 14:54:21,100, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 188
+2022-05-29 15:03:28,322, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:03:30,928, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 116
+2022-05-29 15:05:21,629, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:05:24,239, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 115
+2022-05-29 15:09:23,140, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:09:25,732, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 231
+2022-05-29 15:09:25,739, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:09:27,655, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 192
+2022-05-29 15:11:52,825, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:11:53,993, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 116
+2022-05-29 15:12:13,537, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:16,150, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 246
+2022-05-29 15:12:16,157, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:18,723, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 283
+2022-05-29 15:12:18,730, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:21,292, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 274
+2022-05-29 15:12:21,298, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:23,847, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 233
+2022-05-29 15:12:23,853, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:26,405, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 203
+2022-05-29 15:12:39,487, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:12:42,080, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 184
+2022-05-29 15:13:29,427, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:13:32,033, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 169
+2022-05-29 15:13:35,697, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:13:38,273, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 250
+2022-05-29 15:13:38,279, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:13:39,582, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 85
+2022-05-29 15:13:48,009, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:13:50,585, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 98
+2022-05-29 15:16:16,303, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:16:18,887, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 295
+2022-05-29 15:16:18,893, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:16:21,418, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 209
+2022-05-29 15:16:21,424, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:16:22,961, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 92
+2022-05-29 15:16:31,743, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:16:33,560, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 182
+2022-05-29 15:16:52,519, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:16:54,550, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 189
+2022-05-29 15:17:07,213, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:09,768, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 282
+2022-05-29 15:17:09,775, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:12,308, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 302
+2022-05-29 15:17:12,314, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:14,853, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 260
+2022-05-29 15:17:14,858, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:17,396, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 296
+2022-05-29 15:17:17,401, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:19,938, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 317
+2022-05-29 15:17:19,944, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:22,498, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 308
+2022-05-29 15:17:22,504, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:25,035, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 305
+2022-05-29 15:17:25,041, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:27,581, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 271
+2022-05-29 15:17:27,586, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:30,140, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 298
+2022-05-29 15:17:30,146, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:32,699, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 241
+2022-05-29 15:17:32,705, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:35,254, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 268
+2022-05-29 15:17:35,260, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:37,816, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 271
+2022-05-29 15:17:37,822, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:40,366, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 290
+2022-05-29 15:17:40,372, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:42,912, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 285
+2022-05-29 15:17:42,918, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:45,462, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 305
+2022-05-29 15:17:45,468, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:48,006, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 275
+2022-05-29 15:17:48,012, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:50,573, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 278
+2022-05-29 15:17:50,579, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:53,133, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 290
+2022-05-29 15:17:53,138, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:55,688, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 317
+2022-05-29 15:17:55,693, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:17:58,237, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 318
+2022-05-29 15:17:58,243, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:00,771, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 326
+2022-05-29 15:18:00,777, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:03,321, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 311
+2022-05-29 15:18:03,326, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:05,869, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 300
+2022-05-29 15:18:05,874, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:08,420, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 270
+2022-05-29 15:18:08,425, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:10,973, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 275
+2022-05-29 15:18:11,089, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:11,282, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 65
+2022-05-29 15:18:11,356, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:12,043, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 95
+2022-05-29 15:18:20,657, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:21,435, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 101
+2022-05-29 15:18:21,688, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:18:23,296, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 167
+2022-05-29 15:19:00,269, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:19:01,809, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 137
+2022-05-29 15:19:44,922, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:19:47,524, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 242
+2022-05-29 15:19:47,530, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:19:49,947, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 211
+2022-05-29 15:20:46,668, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:20:49,300, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 82
+2022-05-29 15:21:50,470, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:21:52,522, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 196
+2022-05-29 15:23:25,379, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:23:27,985, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 226
+2022-05-29 15:23:27,991, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:23:30,550, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 188
+2022-05-29 15:24:20,663, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-29 15:24:22,528, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 190

@@ -1,0 +1,545 @@
+2022-04-23 09:54:20,957, INFO Stopping reloader process [9896]
+2022-04-23 09:54:25,930, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-23 09:54:25,933, INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-04-23 09:54:25,934, INFO Started reloader process [20468] using statreload
+2022-04-23 09:54:30,067, WARNING The --reload flag should not be used in production on Windows.
+2022-04-23 09:54:30,068, DEBUG Using selector: SelectSelector
+2022-04-23 09:54:30,358, INFO Started server process [3412]
+2022-04-23 09:54:30,358, INFO Started server process [3412]
+2022-04-23 09:54:30,358, INFO Waiting for application startup.
+2022-04-23 09:54:30,358, INFO Waiting for application startup.
+2022-04-23 09:54:30,387, INFO Application startup complete.
+2022-04-23 09:54:30,387, INFO Application startup complete.
+2022-04-23 09:57:44,538, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 09:57:44,538, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: why
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 09:57:44,631, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 09:57:44,631, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 09:57:46,674, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 139, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 129, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 68, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 42, in rsp_test
+    rsp = requests.post(url, json=req_data)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/v0/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021061D97B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-04-23 09:57:46,674, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 92, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 147, in simple_response
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 182, in send_message
+    code, resp_msg = await chat_api(message.msg, current_userid, db)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 139, in chat_api
+    rsp = await engine.gen_replay(prompt)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 129, in gen_replay
+    rsp = await gpt3_api(prompt, self.api_params)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 68, in gpt3_api
+    rsp = rsp_test()
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\chat_bot_gpt3.py", line 42, in rsp_test
+    rsp = requests.post(url, json=req_data)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/v0/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021061D97B20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-04-23 15:05:35,467, INFO Shutting down
+2022-04-23 15:05:35,467, INFO Shutting down
+2022-04-23 15:05:35,586, INFO Waiting for application shutdown.
+2022-04-23 15:05:35,586, INFO Waiting for application shutdown.
+2022-04-23 15:05:35,590, INFO Application shutdown complete.
+2022-04-23 15:05:35,590, INFO Application shutdown complete.
+2022-04-23 15:05:35,591, INFO Finished server process [3412]
+2022-04-23 15:05:35,591, INFO Finished server process [3412]
+2022-04-23 15:05:35,751, INFO Stopping reloader process [20468]
+2022-04-23 15:05:38,097, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-23 15:05:38,098, INFO Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2022-04-23 15:05:38,099, INFO Started reloader process [14432] using statreload
+2022-04-23 15:05:39,964, WARNING The --reload flag should not be used in production on Windows.
+2022-04-23 15:05:39,965, DEBUG Using selector: SelectSelector
+2022-04-23 15:05:40,180, INFO Started server process [5400]
+2022-04-23 15:05:40,180, INFO Started server process [5400]
+2022-04-23 15:05:40,180, INFO Waiting for application startup.
+2022-04-23 15:05:40,180, INFO Waiting for application startup.
+2022-04-23 15:05:40,181, INFO Application startup complete.
+2022-04-23 15:05:40,181, INFO Application startup complete.
+2022-04-23 15:07:09,921, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: hello
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 15:07:09,921, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: hello
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 15:07:09,964, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 15:07:09,964, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 15:17:32,196, INFO Stopping reloader process [14432]
+2022-04-23 15:17:34,077, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-23 15:17:34,079, INFO Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2022-04-23 15:17:34,079, INFO Started reloader process [25064] using statreload
+2022-04-23 15:17:35,615, WARNING The --reload flag should not be used in production on Windows.
+2022-04-23 15:17:35,615, DEBUG Using selector: SelectSelector
+2022-04-23 15:17:35,769, INFO Started server process [2352]
+2022-04-23 15:17:35,769, INFO Started server process [2352]
+2022-04-23 15:17:35,769, INFO Waiting for application startup.
+2022-04-23 15:17:35,769, INFO Waiting for application startup.
+2022-04-23 15:17:35,770, INFO Application startup complete.
+2022-04-23 15:17:35,770, INFO Application startup complete.
+2022-04-23 15:17:54,440, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 15:17:54,440, INFO for debug: This is a conversation between a boy named string and girl named string. string is a very kind and smart girl. She likes music, running, food, math and art. string is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with string
+
+string: I'm boring
+string: Yeah, being bored sucks. Let's do something fun together!
+string: You are really good friends
+string: That's very sweet to say!, You inspire me all the time!
+string: why
+string: sorry, I can't catch you
+string: how are you
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: hi
+string: sorry, I can't catch you
+string: I'm boring
+string: sorry, I can't catch you
+string: hi
+string: 
+api_params: {'stop': '\nstring: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 15:17:54,453, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 15:17:54,453, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 16:03:30,201, INFO Stopping reloader process [25064]
+2022-04-23 19:14:22,622, INFO Will watch for changes in these directories: ['D:\\Dian\\数字人组\\api\\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a']
+2022-04-23 19:14:22,624, INFO Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2022-04-23 19:14:22,625, INFO Started reloader process [1588] using statreload
+2022-04-23 19:14:25,278, WARNING The --reload flag should not be used in production on Windows.
+2022-04-23 19:14:25,280, DEBUG Using selector: SelectSelector
+2022-04-23 19:14:25,540, INFO Started server process [11684]
+2022-04-23 19:14:25,540, INFO Started server process [11684]
+2022-04-23 19:14:25,541, INFO Waiting for application startup.
+2022-04-23 19:14:25,541, INFO Waiting for application startup.
+2022-04-23 19:14:25,542, INFO Application startup complete.
+2022-04-23 19:14:25,542, INFO Application startup complete.
+2022-04-23 19:14:31,173, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 217, in app
+    solved_result = await solve_dependencies(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\dependencies\utils.py", line 529, in solve_dependencies
+    solved = await run_in_threadpool(call, **sub_values)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 102, in admin_authorize
+    if not user.is_admin:
+AttributeError: 'NoneType' object has no attribute 'is_admin'
+2022-04-23 19:14:31,173, ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 366, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 75, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 96, in __call__
+    raise exc from None
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\uvicorn\middleware\debug.py", line 93, in __call__
+    await self.app(scope, receive, inner_send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\applications.py", line 261, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 63, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 53, in db_session_middleware
+    response = await call_next(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 44, in call_next
+    raise app_exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\base.py", line 34, in coro
+    await self.app(scope, request.receive, send_stream.send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\middleware\cors.py", line 84, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 656, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 259, in handle
+    await self.app(scope, receive, send)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\routing.py", line 61, in app
+    response = await func(request)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\routing.py", line 217, in app
+    solved_result = await solve_dependencies(
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\fastapi\dependencies\utils.py", line 529, in solve_dependencies
+    solved = await run_in_threadpool(call, **sub_values)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\starlette\concurrency.py", line 39, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\to_thread.py", line 28, in run_sync
+    return await get_asynclib().run_sync_in_worker_thread(func, *args, cancellable=cancellable,
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 818, in run_sync_in_worker_thread
+    return await future
+  File "D:\Dian\PythonProjects\demo_test\venv\lib\site-packages\anyio\_backends\_asyncio.py", line 754, in run
+    result = context.run(func, *args)
+  File "D:\Dian\数字人组\api\light_chat-master-178e8304e82c480fe623514dbe954fd643b6ad4a\main.py", line 102, in admin_authorize
+    if not user.is_admin:
+AttributeError: 'NoneType' object has no attribute 'is_admin'
+2022-04-23 19:14:43,469, INFO for debug: This is a conversation between a boy named Bob and girl named Alice. Alice is a very kind and smart girl. She likes music, running, food, math and art. Alice is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with Alice
+
+Bob: I'm boring
+Alice: Yeah, being bored sucks. Let's do something fun together!
+Bob: You are really good friends
+Alice: That's very sweet to say!, You inspire me all the time!
+Bob: why
+Alice: 
+api_params: {'stop': '\nBob: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 19:14:43,469, INFO for debug: This is a conversation between a boy named Bob and girl named Alice. Alice is a very kind and smart girl. She likes music, running, food, math and art. Alice is very talkative and likes to talk and share her experiences growing up. She's a Stanford psychology graduate with a knack for comforting people. The boy may fall in love with Alice
+
+Bob: I'm boring
+Alice: Yeah, being bored sucks. Let's do something fun together!
+Bob: You are really good friends
+Alice: That's very sweet to say!, You inspire me all the time!
+Bob: why
+Alice: 
+api_params: {'stop': '\nBob: ', 'temperature': 0.9, 'top_p': 0.9, 'max_tokens': 150, 'frequency_penalty': 0.0, 'presence_penalty': 0.6}
+2022-04-23 19:14:43,547, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 19:14:43,547, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-04-23 20:42:34,138, INFO Stopping reloader process [1588]
+2022-04-29 16:02:46,822, INFO Started server process [858352]
+2022-04-29 16:02:46,822, INFO Waiting for application startup.
+2022-04-29 16:02:46,823, INFO Application startup complete.
+2022-04-29 16:02:46,823, INFO Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+2022-04-29 16:02:55,204, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-04-29 16:03:02,159, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-04-29 16:03:17,155, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-04-29 16:03:22,286, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-04-29 20:25:25,979, INFO Started server process [890448]
+2022-04-29 20:25:25,979, INFO Waiting for application startup.
+2022-04-29 20:25:25,979, INFO Application startup complete.
+2022-04-29 20:25:25,979, ERROR [Errno 98] error while attempting to bind on address ('0.0.0.0', 9090): address already in use
+2022-04-29 20:25:25,980, INFO Waiting for application shutdown.
+2022-04-29 20:25:25,980, INFO Application shutdown complete.
+2022-04-29 20:25:51,099, INFO Started server process [890517]
+2022-04-29 20:25:51,100, INFO Waiting for application startup.
+2022-04-29 20:25:51,100, INFO Application startup complete.
+2022-04-29 20:25:51,100, ERROR [Errno 98] error while attempting to bind on address ('0.0.0.0', 9090): address already in use
+2022-04-29 20:25:51,100, INFO Waiting for application shutdown.
+2022-04-29 20:25:51,100, INFO Application shutdown complete.
+2022-04-29 20:26:32,205, INFO Started server process [890658]
+2022-04-29 20:26:32,206, INFO Waiting for application startup.
+2022-04-29 20:26:32,206, INFO Application startup complete.
+2022-04-29 20:26:32,206, ERROR [Errno 98] error while attempting to bind on address ('0.0.0.0', 9090): address already in use
+2022-04-29 20:26:32,206, INFO Waiting for application shutdown.
+2022-04-29 20:26:32,206, INFO Application shutdown complete.
+2022-04-29 20:27:21,183, INFO Started server process [891153]
+2022-04-29 20:27:21,183, INFO Waiting for application startup.
+2022-04-29 20:27:21,184, INFO Application startup complete.
+2022-04-29 20:27:21,184, ERROR [Errno 98] error while attempting to bind on address ('0.0.0.0', 9090): address already in use
+2022-04-29 20:27:21,184, INFO Waiting for application shutdown.
+2022-04-29 20:27:21,184, INFO Application shutdown complete.
+2022-04-29 20:30:22,983, INFO Started server process [891941]
+2022-04-29 20:30:22,983, INFO Waiting for application startup.
+2022-04-29 20:30:22,984, INFO Application startup complete.
+2022-04-29 20:30:22,984, INFO Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+2022-04-29 20:37:32,955, INFO Shutting down
+2022-04-29 20:37:33,056, INFO Waiting for application shutdown.
+2022-04-29 20:37:33,057, INFO Application shutdown complete.
+2022-04-29 20:37:33,057, INFO Finished server process [891941]

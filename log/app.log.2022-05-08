@@ -1,0 +1,305 @@
+2022-05-09 00:06:00,577, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:01,393, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 93
+2022-05-09 00:06:01,393, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 93
+2022-05-09 00:06:11,644, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:11,644, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:12,237, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 85
+2022-05-09 00:06:12,237, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 85
+2022-05-09 00:06:40,691, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:40,691, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:42,734, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 192
+2022-05-09 00:06:42,734, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 192
+2022-05-09 00:06:52,366, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:52,366, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:06:53,853, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 150
+2022-05-09 00:06:53,853, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 150
+2022-05-09 00:07:25,349, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:07:25,349, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:07:27,404, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 194
+2022-05-09 00:07:27,404, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 194
+2022-05-09 00:07:41,472, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:07:41,472, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:07:42,728, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 139
+2022-05-09 00:07:42,728, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 139
+2022-05-09 00:09:52,443, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:09:52,443, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:09:54,479, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 193
+2022-05-09 00:09:54,479, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 193
+2022-05-09 00:28:49,319, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:28:49,319, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:28:51,405, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 194
+2022-05-09 00:28:51,405, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 194
+2022-05-09 00:29:24,360, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:29:24,360, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:29:26,421, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 207
+2022-05-09 00:29:26,421, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 207
+2022-05-09 00:30:01,419, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:30:01,419, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:30:03,479, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 195
+2022-05-09 00:30:03,479, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 195
+2022-05-09 00:30:32,018, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:30:32,018, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:30:34,108, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 203
+2022-05-09 00:30:34,108, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 203
+2022-05-09 00:31:10,516, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:31:10,516, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:31:12,134, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 160
+2022-05-09 00:31:12,134, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 160
+2022-05-09 00:31:37,754, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:31:37,754, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:31:39,827, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 180
+2022-05-09 00:31:39,827, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 180
+2022-05-09 00:32:07,400, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:32:07,400, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:32:09,507, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 189
+2022-05-09 00:32:09,507, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 189
+2022-05-09 00:36:24,982, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:36:24,982, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:36:25,982, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 106
+2022-05-09 00:36:25,982, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 106
+2022-05-09 00:36:52,645, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:36:52,645, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:36:54,729, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 207
+2022-05-09 00:36:54,729, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 207
+2022-05-09 00:37:33,933, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:37:33,933, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:37:36,020, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 154
+2022-05-09 00:37:36,020, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 154
+2022-05-09 00:39:24,654, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:39:24,654, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:39:26,699, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 218
+2022-05-09 00:39:26,699, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 218
+2022-05-09 00:40:26,657, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:40:26,657, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:40:28,734, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 223
+2022-05-09 00:40:28,734, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 223
+2022-05-09 00:40:58,136, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:40:58,136, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:41:00,156, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 185
+2022-05-09 00:41:00,156, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 185
+2022-05-09 00:42:21,314, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:42:21,314, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:42:23,378, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 198
+2022-05-09 00:42:23,378, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 198
+2022-05-09 00:42:42,033, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:42:42,033, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:42:44,149, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 228
+2022-05-09 00:42:44,149, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 228
+2022-05-09 00:43:06,772, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:43:06,772, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:43:07,172, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 73
+2022-05-09 00:43:07,172, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 73
+2022-05-09 00:43:22,853, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:43:22,853, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:43:24,897, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 220
+2022-05-09 00:43:24,897, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 220
+2022-05-09 00:44:31,413, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:31,413, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:33,468, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 111
+2022-05-09 00:44:33,468, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 111
+2022-05-09 00:44:37,533, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:37,533, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:39,597, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 196
+2022-05-09 00:44:39,597, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 196
+2022-05-09 00:44:51,672, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:51,672, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:44:53,740, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 223
+2022-05-09 00:44:53,740, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 223
+2022-05-09 00:45:17,294, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:17,294, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:18,420, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 123
+2022-05-09 00:45:18,420, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 123
+2022-05-09 00:45:27,077, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:27,077, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:29,175, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 105
+2022-05-09 00:45:29,175, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 105
+2022-05-09 00:45:45,905, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:45,905, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:47,960, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 200
+2022-05-09 00:45:47,960, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 200
+2022-05-09 00:45:55,453, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:55,453, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:45:57,512, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 111
+2022-05-09 00:45:57,512, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 111
+2022-05-09 00:46:03,535, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:03,535, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:04,148, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 93
+2022-05-09 00:46:04,148, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 93
+2022-05-09 00:46:15,333, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:15,333, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:15,849, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 80
+2022-05-09 00:46:15,849, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 80
+2022-05-09 00:46:27,203, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:27,203, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:46:28,592, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 142
+2022-05-09 00:46:28,592, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 142
+2022-05-09 00:53:41,813, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:53:41,813, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:53:42,141, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 72
+2022-05-09 00:53:42,141, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 72
+2022-05-09 00:53:55,731, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:53:55,731, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:53:57,441, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 155
+2022-05-09 00:53:57,441, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 155
+2022-05-09 00:54:09,297, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:54:09,297, DEBUG Starting new HTTP connection (1): 127.0.0.1:8080
+2022-05-09 00:54:10,070, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 98
+2022-05-09 00:54:10,070, DEBUG http://127.0.0.1:8080 "POST /api/v0/generate HTTP/1.1" 200 98
+2022-05-09 01:09:30,763, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 01:09:30,763, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 01:09:30,892, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 01:09:30,892, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 01:12:49,720, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 01:12:49,720, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 02:00:43,336, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 02:00:43,336, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 04:22:54,545, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 04:22:54,545, WARNING Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 129, in handle_events
+    event = self.conn.next_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 443, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_util.py", line 76, in _reraise_as_remote_protocol_error
+    raise self
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 425, in next_event
+    event = self._extract_next_receive_event()
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_connection.py", line 367, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/data1/work/.conda/envs/nlp/lib/python3.8/site-packages/h11/_readers.py", line 68, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+2022-05-09 12:14:48,967, INFO Shutting down
+2022-05-09 12:14:48,967, INFO Shutting down
+2022-05-09 12:14:49,069, INFO Waiting for application shutdown.
+2022-05-09 12:14:49,069, INFO Waiting for application shutdown.
+2022-05-09 12:14:49,071, INFO Application shutdown complete.
+2022-05-09 12:14:49,071, INFO Application shutdown complete.
+2022-05-09 12:14:49,071, INFO Finished server process [2301559]
+2022-05-09 12:14:49,071, INFO Finished server process [2301559]
